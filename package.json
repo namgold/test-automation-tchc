@@ -1,10 +1,11 @@
 {
   "name": "hcmut-automation-test",
   "version": "1.0.0",
+  "maxWaitTime": 40000,
   "description": "Automation test with Selenium and Jest",
   "main": "test.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
